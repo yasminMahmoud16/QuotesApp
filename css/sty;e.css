@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montaga&display=swap');
+
+body{
+    background-color: #343131;
+}
+main .container .card{
+
+    background-color: #f5e8d8;
+}
+main .container .card .card-body h1{
+    font-family: "Marck Script", cursive;
+    font-size: 4rem;
+}
+
+main .container .card .card-body .quote-con p {
+font-family: "Montaga", serif;
+}
+
+main .container .card .card-body .btns{
+    font-family: "Montaga", serif;
+}
+main .container .card .card-body .btns .new{
+    background-color: #462500;
+    color: #fff;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+}
+
+
+main .container .card .card-body .btns .new:hover{
+    background-color: #996147;
+    color: #fff;
+}
+
+main .container .card .card-body .btns .rest{
+        background-color: #996147;
+            color: #fff;
+            border: none;
+                padding: 10px 20px;
+                    transition: all .3s ease-in-out;
+}
+
+main .container .card .card-body .btns .rest:hover{
+        background-color: #f5e8d8;
+            color: #996147;
+            border: 2px solid #996147;
+}
